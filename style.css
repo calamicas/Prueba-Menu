@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Recoleta;
+    src: url("./fonts/Recoleta-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Texta Regular;
+    src: url("./fonts/Texta-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Texta Bold;
+    src: url("./fonts/Texta-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Texta Italica;
+    src: url("./fonts/Texta-It.otf") format("opentype");
+}
+
+.containerindice {
+    width: 100%;
+    height: 1104px;
+    display: inline-block;
+}
+
+body {
+    background-image: url('img/fondo_indice.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #006f5d;
+}
+
+.logo {
+    width: 60%;
+    position: relative;
+    margin: 0px auto;
+    margin-left: 105px;
+    margin-top: 180px;
+}
+
+.menu {
+    width: 50%;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    position: absolute;
+    z-index: 15;
+    top: 65%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+
+}
+
+.menu p{
+    border-bottom: 1px solid white;
+    padding-bottom: 22px;
+    font-family: Recoleta;
+    font-size: 18pt;
+}
+
+a { 
+    color: white; 
+    text-decoration: none;
+}
+
+.bodymenu {
+    background-image: url('img/textura.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.container {
+    width: 100%;
+    display: inline-block;
+
+}
+
+h1 {
+    text-align: center;
+    color: #006f5d;
+    margin-bottom: -10px;
+    font-family: Recoleta;
+}
+
+h2 {
+    font-family: Recoleta;
+    font-size: 15pt;
+    margin-bottom: -15px;
+}
+
+h3 {
+    font-family: Texta Bold;
+    font-size: 13pt;
+    color: #006f5d;
+}
+
+p {
+    font-family: Texta Regular;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    border-bottom: 1px solid #006f5d;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.item {
+width: 80%;
+}
+
+.price {
+width: 20%;
+padding: 20px;
+text-align: center;
+}
+
+.button {
+    background-color: #006f5d;
+    border: none;
+    color: white;
+    font-family: Recoleta;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 12px;
+    position: relative;
+    left: 30%;
+  }
+
+/* Style the navbar */
+#navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #006f5d;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    font-family: Recoleta;
+    font-size: 10pt;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
