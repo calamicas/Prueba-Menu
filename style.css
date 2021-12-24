@@ -117,19 +117,12 @@ table {
 }
 
 .returnindex {
-    background-color: #006f5d;
-    border: none;
-    color: white;
+    color: #006f5d;
     font-family: Recoleta;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin-top: 20px;
-    border-radius: 12px;
-    position: relative;
-    left: 30%;
+    margin-bottom: 20px;
   }
 
 /* Style the navbar */
