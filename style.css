@@ -114,21 +114,6 @@ table {
     padding-bottom: 20px;
 }
 
-/* td {
-    border-bottom: 1px solid #006f5d;
-    border-collapse: collapse;
-    padding: 10px;
-} */
-
-.item {
-width: 80%;
-}
-
-.price {
-width: 20%;
-text-align: right;
-}
-
 .button {
     background-color: #006f5d;
     border: none;
