@@ -86,13 +86,15 @@ h1 {
 h2 {
     font-family: Recoleta;
     font-size: 15pt;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
 }
 
 h3 {
     font-family: Texta Bold;
     font-size: 13pt;
     color: #006f5d;
+    margin-bottom: 0px;
+    text-align: right;
 }
 
 p {
@@ -104,11 +106,19 @@ table {
     border-spacing: 0;
 }
 
-td {
+.lineup {
+    border-top: 1px solid #006f5d;
+}
+
+.linedown {
+    padding-bottom: 20px;
+}
+
+/* td {
     border-bottom: 1px solid #006f5d;
     border-collapse: collapse;
     padding: 10px;
-}
+} */
 
 .item {
 width: 80%;
@@ -116,8 +126,7 @@ width: 80%;
 
 .price {
 width: 20%;
-padding: 20px;
-text-align: center;
+text-align: right;
 }
 
 .button {
