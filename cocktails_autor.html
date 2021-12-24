@@ -9,29 +9,29 @@
     <script type="text/javascript" src="./javascript.js"></script>
 </head>
 <body class="bodymenu">
+  <div id="navbar"><ul>
+    <li><a href="./cocktails_autor.html">Cocktails de Autor</a></li>
+    <li><a href="./cocktails_clasicos.html">Cocktails Clásicos</a></li>
+    <li><a href="./tablas_picoteo.html">Tablas & Picoteo</a></li>
+    <li><a href="./comida.html">Comida</a></li>
+    <li><a href="./bebestibles.html">Bebestibles</a></li>
+  </ul>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+  </div>
     <div class="container">
-    <div id="navbar"><ul>
-        <li><a href="./cocktails_autor.html">Cocktails de Autor</a></li>
-        <li><a href="./cocktails_clasicos.html">Cocktails Clásicos</a></li>
-        <li><a href="./tablas_picoteo.html">Tablas & Picoteo</a></li>
-        <li><a href="./comida.html">Comida</a></li>
-        <li><a href="./bebestibles.html">Bebestibles</a></li>
-      </ul>
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
-            }
-            </script>
-      </div>
       <h1>Cocktails de Autor</h1>
 
           <table>
