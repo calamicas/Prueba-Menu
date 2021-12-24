@@ -135,21 +135,14 @@ table {
   /* Navbar links */
   #navbar a {
     font-family: Recoleta;
-    font-size: 10pt;
+    font-size: 0.8em;
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-    margin-left: 8px;
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
+  }  
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
@@ -164,6 +157,7 @@ table {
 
   ul {
     list-style:none;
+    text-align: center;
   }
   ul li{
     display:inline-block; 
