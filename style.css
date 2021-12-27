@@ -108,7 +108,7 @@ h5 {
     color: #ba814d;
     margin-bottom: 0px;
     font-family: Recoleta;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 h6 {
@@ -135,6 +135,7 @@ table {
 }
 
 .destilados {
+    width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
 }
@@ -155,6 +156,11 @@ table {
 
 .linedown {
     padding-bottom: 10px;
+}
+
+span {
+    color: #006f5d;
+    font-size: 0.8em;
 }
 
 .returnindex {
