@@ -86,7 +86,7 @@ h1 {
 h2 {
     font-family: Recoleta;
     font-size: 1.2em;
-    margin-bottom: -20px;
+    margin-bottom: -0px;
 }
 
 h3 {
@@ -114,14 +114,18 @@ h5 {
 h6 {
     font-family: Texta Bold;
     font-size: 1em;
-    color: #006f5d;
+    color: #006f5d; 
     text-align: center;
     margin-right: 10px;
+    line-height: 20px;
+    margin: 0px;
 }
 
 p {
     font-family: Texta Regular;
     font-size: 1em;
+    line-height: 15px;
+    margin: 0px;
 }
 
 table {
@@ -130,11 +134,15 @@ table {
     padding: 0;
 }
 
+.destilados {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
 .destilados td {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px; 
+    margin: 0;
     height: 10px;
-    border:1px solid #c2da3f;
 }
 
 .lineright {
