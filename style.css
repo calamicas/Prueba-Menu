@@ -73,7 +73,6 @@ a {
 .container {
     width: 100%;
     display: inline-block;
-
 }
 
 h1 {
@@ -98,6 +97,28 @@ h3 {
     text-align: right;
 }
 
+h4 {
+    color: #ba814d;
+    margin-bottom: 0px;
+    font-family: Recoleta;
+    font-size: 2em;
+}
+
+h5 {
+    color: #ba814d;
+    margin-bottom: 0px;
+    font-family: Recoleta;
+    font-size: 1.5em;
+}
+
+h6 {
+    font-family: Texta Bold;
+    font-size: 1em;
+    color: #006f5d;
+    text-align: center;
+    margin-right: 10px;
+}
+
 p {
     font-family: Texta Regular;
     font-size: 1em;
@@ -106,6 +127,18 @@ p {
 table {
     width: 100%;
     border-spacing: 0;
+    padding: 0;
+}
+
+.destilados td {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 10px;
+    border:1px solid #c2da3f;
+}
+
+.lineright {
+    border-right: 1px solid #006f5d;
 }
 
 .lineup {
