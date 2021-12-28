@@ -30,18 +30,9 @@ body {
     background-repeat: no-repeat;
 }
 
-.menu {
-    width: 50%;
-    color: white;
-    text-align: center;
-    border-top: 1px solid white;
-    text-align:center;
-    position:fixed;
-    z-index:9999;
-    width: 850px;
-    margin: 0 auto; left:0px; right:0px;
-    float:clear;
-}
+/* .menu {
+
+} */
 
 .menu p{
     border-bottom: 1px solid white;
@@ -201,13 +192,14 @@ span {
     padding-top: 60px;
   }
 
+/* Este codigo es para las lineas entre items */
   ul {
     list-style:none;
     text-align: center;
   }
   ul li{
     display:inline-block; 
-    padding:0 7px; 
+    padding:0 5px; 
     position:relative;
   }
   ul li:not(:last-child)::after{
