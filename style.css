@@ -27,12 +27,12 @@
 }
 
 body {
-background-color: #006f5d;
+    background-color: #006f5d;
 }
 
 .menu {
     position: absolute;
-    margin-top: 90%;
+    margin-top: 85%;
     margin-left: 20%;
 }
 
