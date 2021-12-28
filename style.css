@@ -19,27 +19,29 @@
 }
 
 .containerindice {
-    width: 2589px;
-    height: 4601px;
-    display: inline-block;
-}
-
-body {
+    width: 100%;
+    height: 1000px;
     background-image: url('img/fondo_indice.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-/* .menu {
+body {
+background-color: #006f5d;
+}
 
-} */
+.menu {
+    position: absolute;
+margin-top: 90%;
+margin-left: 27%;
+}
 
 .menu p{
     border-bottom: 1px solid white;
-    padding-bottom: 22px;
+    padding: 22px;
     font-family: Recoleta;
     font-size: 14pt;
-    margin-top: 20px;
+    text-align: center;
 }
 
 a { 
@@ -158,10 +160,9 @@ span {
 .returnindex {
     color: #006f5d;
     font-family: Recoleta;
-    padding: 15px 32px;
+    padding: 50px 32px 50px 0px;
     font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
   }
 
 /* Style the navbar */
