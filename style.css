@@ -32,8 +32,8 @@ background-color: #006f5d;
 
 .menu {
     position: absolute;
-margin-top: 90%;
-margin-left: 27%;
+    margin-top: 90%;
+    margin-left: 20%;
 }
 
 .menu p{
@@ -177,7 +177,7 @@ span {
     font-family: Recoleta;
     font-size: 0.8em;
     float: left;
-    display: block;
+    display: inline;
     color: #f2f2f2;
     text-align: center;
   }  
