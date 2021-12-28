@@ -35,11 +35,12 @@ body {
     color: white;
     text-align: center;
     border-top: 1px solid white;
-    position: absolute;
-    z-index: 15;
-    top: 60%;
-    left: 50%;
-    margin: -100px 0 0 -150px;
+    text-align:center;
+    position:fixed;
+    z-index:9999;
+    width: 850px;
+    margin: 0 auto; left:0px; right:0px;
+    float:clear;
 }
 
 .menu p{
