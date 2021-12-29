@@ -172,11 +172,9 @@ span {
 
 /* Style the navbar */
 #navbar {
-    width: 101%;
+    width: 100%;
     overflow: hidden;
     background-color: #006f5d;
-    padding: 5px;
-    margin-left: -8px;
   }
   
   /* Navbar links */
