@@ -61,7 +61,7 @@ a {
 }
 
 .containerbebestibles {
-    width: 95%;
+    width: 90%;
     display: inline-block;
 }
 
@@ -167,7 +167,7 @@ span {
     font-family: Recoleta;
     padding: 50px 32px 50px 0px;
     font-size: 16px;
-
+    text-align: center;
   }
 
 /* Style the navbar */
