@@ -185,6 +185,7 @@ span {
   .sticky {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
   }
   
@@ -205,7 +206,7 @@ span {
   }
   ul li:not(:last-child)::after{
     content:""; 
-    border:1px solid #e2e2e2;
+    border: 1px solid #e2e2e2;
     border-width: 1px 1px 0 0;
     position:absolute; 
     right:-3px; 
