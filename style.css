@@ -203,6 +203,9 @@ span {
   ul {
     list-style: none;
     text-align: center;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    padding-inline-start: 10px;
   }
   ul li{
     display:inline-block; 
@@ -217,5 +220,4 @@ span {
     right:-3px; 
     top:0; 
     height:100%;
-    text-align: center;
   }
