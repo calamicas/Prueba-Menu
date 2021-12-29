@@ -33,7 +33,7 @@ body {
 .menu {
     position: absolute;
     margin-top: 60%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 .menu p{
@@ -211,6 +211,7 @@ span {
     display:inline-block; 
     padding:0 5px; 
     position:relative;
+    
   }
   ul li:not(:last-child)::after{
     content:""; 
