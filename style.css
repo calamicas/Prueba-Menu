@@ -60,6 +60,11 @@ a {
     display: inline-block;
 }
 
+.containerbebestibles {
+    width: 95%;
+    display: inline-block;
+}
+
 h1 {
     text-align: center;
     color: #006f5d;
@@ -129,7 +134,7 @@ table {
 }
 
 .destilados {
-    width: 95%;
+    width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
 }
