@@ -8,28 +8,23 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
 </head>
 <body class="bodymenu">
-  <div id="navbar"><ul>
-    <li><a href="./cocktails_autor.html">Cocktails de Autor</a></li>
-    <li><a href="./cocktails_clasicos.html">Cocktails Clásicos</a></li>
-    <li><a href="./tablas_picoteo.html">Tablas & Picoteo</a></li>
-    <li><a href="./comida.html">Comida</a></li>
-    <li><a href="./bebestibles.html">Bebestibles</a></li>
-  </ul>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-        </script>
-  </div>
+  <nav id="sticky-menu">
+    <a href="cocktails_autor.html">
+      Cocktails de Autor
+    </a>
+    <a href="cocktails_clasicos.html">
+      Cocktails Clásicos
+    </a>
+    <a href="tablas_picoteo.html">
+      Tablas & Picoteo
+    </a>
+    <a href="comida.html">
+      Comida
+    </a>
+    <a href="bebestibles.html">
+      Bebestibles
+    </a>
+  </nav>
     <div class="container">
       <h1>Comida</h1>
 
