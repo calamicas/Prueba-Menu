@@ -34,7 +34,7 @@ body {
 }
 
 .imgindice {
-    width: 200px;
+    width: 150x;
     padding: 20px;
     display:block;
     margin:auto;
@@ -47,14 +47,14 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 180px;
 }
 
 .menu p{
     border-bottom: 1px solid white;
     padding: 22px;
     font-family: Recoleta;
-    font-size: 14pt;
+    font-size: 12pt;
     text-align: center;
 }
 
