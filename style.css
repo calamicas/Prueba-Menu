@@ -22,13 +22,22 @@
     width: 100%;
     height: 550px;
     position: relative;
-    background-image: url('img/pattern.jpg');
-    background-size: contain;
-    background-repeat: repeat;
 }
 
 body {
     background-color: #006f5d;
+}
+
+.bodyportada {
+    background-image: url('img/pattern.jpg');
+    background-repeat: repeat;
+}
+
+.imgindice {
+    width: 200px;
+    padding: 20px;
+    display:block;
+    margin:auto;
 }
 
 .menu {
@@ -38,6 +47,10 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: #006f5d;
+    border-radius: 50px;
+    padding: 30px;
 }
 
 .menu p{
